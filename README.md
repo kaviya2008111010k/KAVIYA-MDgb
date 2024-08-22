@@ -12,6 +12,5 @@
 <img src="https://telegra.ph/file/ef2bd81f8b009bf993d1d.jpg" width="540" height="280" />
 </p>         ⚔ 𝐊𝐀𝐕𝐈𝐘𝐀 𝐌𝐃 ⚔
 
-<a
-href=https://pair-web-public.koyeb.app/
-"><img
+PAIRING CODE SCAN
+<a href="https://pair-web-public.koyeb.app/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-red" alt="LOGIN WITH PAIR CODE" width="250"></a>
