@@ -66,8 +66,8 @@ if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('KAVIYA-MD Plugins installed successful 💀✅')
-console.log('KAVIYA-MD connected to whatsapp 💀✅')
+console.log('KAVIYA-MD Plugins installed successful 😼✅')
+console.log('KAVIYA-MD connected to whatsapp 😼✅')
 
 let up = `KAVIYA-MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
@@ -168,7 +168,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("KAVIYA-MD started✅");
+res.send("KAVIYA-MD started ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
