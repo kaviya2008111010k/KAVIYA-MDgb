@@ -27,7 +27,7 @@ menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
 
 let madeMenu = `*😼👋 HELLO KAVIYA-MD USER ${pushname}*
 *❮ KAVIYA-MD ❯*
-*◆ ᴏᴡɴᴇʀ: KAVIYA*
+*◆ ᴏᴡɴᴇʀ: CYBER KAVIYA*
 
 *Thanks for Choosing KAVIYA-MD 💀📵*
 
