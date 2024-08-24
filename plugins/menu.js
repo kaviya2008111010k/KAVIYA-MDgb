@@ -29,9 +29,25 @@ let madeMenu = `*😼👋 HELLO KAVIYA-MD USER ${pushname}*
 
 ${menu.download}
 
-◆ *ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ 😼⚙️*
+◆ *ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ 🎭💥*
 
 ${menu.main}
+
+◆ *ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️🪀*
+
+${menu.group}
+
+◆ *ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ 😼⚙️*
+
+${menu.owner}
+
+◆ *ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ♻️✨*
+
+${menu.convert}
+
+◆ *ꜱᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅꜱ 👀🎯*
+
+${menu.search}
 
 `
     
