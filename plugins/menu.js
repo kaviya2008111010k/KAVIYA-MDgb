@@ -9,7 +9,16 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-return await conn.sendMessage(from,{image: {url: config.MENU_IMG},caption: config.MENU_MSG},{quoted: mek})
+let menu = {
+main: '',
+download: '',
+group: '',
+owner: '',
+convert: '',
+search: ''
+};
+
+
 }catch(e){
 console.log(e)
 reply(`${e}`)
