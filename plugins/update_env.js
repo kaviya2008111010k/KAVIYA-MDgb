@@ -13,7 +13,7 @@ async (conn, mek, m, { from, q, reply, isOwner }) => {
     if (!isOwner) return;
 
     if (!q) {
-        return reply("🙇‍♂️ *Please provide the environment variable and its new value.* \n\nExample: `.update ALIVE_MSG: hello i am prabath kumara`");
+        return reply("🎭 *Please provide the environment variable and its new value.* \n\nExample: `.update ALIVE_MSG: hello i am prabath kumara`");
     }
 
     // Find the position of the first colon or comma
@@ -44,15 +44,15 @@ async (conn, mek, m, { from, q, reply, isOwner }) => {
 
     // Specific checks for MODE, ALIVE_IMG, and AUTO_READ_STATUS
     if (key === 'MODE' && !validModes.includes(newValue)) {
-        return reply(`😒 *Invalid mode. Valid modes are: ${validModes.join(', ')}*`);
+        return reply(`😼 *Invalid mode. Valid modes are: ${validModes.join(', ')}*`);
     }
 
     if (key === 'ALIVE_IMG' && !newValue.startsWith('https://')) {
-        return reply("😓 *Invalid URL format. PLEASE GIVE ME IMAGE URL*");
+        return reply("😼 *Invalid URL format. PLEASE GIVE ME IMAGE URL*");
     }
 
     if (key === 'AUTO_READ_STATUS' && !['true', 'false'].includes(newValue)) {
-        return reply("😓 *Invalid value for AUTO_READ_STATUS. Please use `true` or `false`.*");
+        return reply("😼 *Invalid value for AUTO_READ_STATUS. Please use `true` or `false`.*");
     }
 
     try {
@@ -72,6 +72,6 @@ async (conn, mek, m, { from, q, reply, isOwner }) => {
         
     } catch (err) {
         console.error('Error updating environment variable:' + err.message);
-        reply("🙇‍♂️ *Failed to update the environment variable. Please try again.*" + err);
+        reply("🎭 *Failed to update the environment variable. Please try again.*" + err);
     }
 });
