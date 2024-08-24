@@ -13,6 +13,9 @@ async (conn, mek, m, {from, quoted, body, isCmd, command, args, q, isGroup, send
 try{
 let status = `*🚀 Uptime:*  ${runtime(process.uptime())}
 *📵 RAM Usage:*
+- *Used*: ${usedRAM} MB
+- *Free*: ${freeRAM} MB
+- *Total*: ${totalRAM} MB
 *🏠 HostName:* ${os.hostname()}
 *😼 Owner:* *ᴄʏʙᴇʀ ᴋᴀᴠɪʏᴀ*
 `
