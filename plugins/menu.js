@@ -58,7 +58,7 @@ ${menu.search}
 
 > *𝐊𝐀𝐕𝐈𝐘𝐀-𝐌𝐃*
 `
-await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/9e3b76b5aefcbc523bde4.jpg"},caption:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
