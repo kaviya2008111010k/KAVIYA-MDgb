@@ -18,7 +18,18 @@ convert: '',
 search: ''
 };
 
+for (let i = 0; i < commands.length; i++) {
+if (commands[i].pattern && !commands[i].dontAddCommandList) {
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
+ }
+}
 
+let madeMenu = `*😼👋 HELLO KAVIYA-MD USER ${pushname}*
+◆ *ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅꜱ 📥📂*
+${menu.download}
+
+`
+    
 }catch(e){
 console.log(e)
 reply(`${e}`)
