@@ -26,7 +26,12 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 
 let madeMenu = `*😼👋 HELLO KAVIYA-MD USER ${pushname}*
 ◆ *ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅꜱ 📥📂*
+
 ${menu.download}
+
+◆ *ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ 😼⚙️*
+
+${menu.main}
 
 `
     
