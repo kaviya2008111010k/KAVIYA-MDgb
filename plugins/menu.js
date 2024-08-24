@@ -57,9 +57,9 @@ ${menu.convert}
 ${menu.search}
 
 > *𝐊𝐀𝐕𝐈𝐘𝐀-𝐌𝐃*
-
 `
-    
+await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+
 }catch(e){
 console.log(e)
 reply(`${e}`)
