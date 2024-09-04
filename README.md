@@ -13,4 +13,4 @@
 </p>         ⚔ 𝐊𝐀𝐕𝐈𝐘𝐀 𝐌𝐃 ⚔
 
 PAIRING CODE SCAN
-<a href="https://decent-verina-kaviya20081110-1afb25ef.koyeb.app/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-red" alt="LOGIN WITH PAIR CODE" width="250"></a>
+<a href="https://pair-web-public.koyeb.app/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-red" alt="LOGIN WITH PAIR CODE" width="250"></a>
